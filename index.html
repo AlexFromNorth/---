@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Цветовод</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper_main">
+      <div class="wrapper_block">
+        <header class="header">
+          <div class="time_block">
+            <p>Время</p>
+            <p class="time"></p>
+          </div>
+          <!-- <div class="lvl"></div> -->
+          <div class="count_block">
+            <p>Очки</p>
+            <p class="count">0</p>
+          </div>
+          <!-- <div class="bonus"></div> -->
+        </header>
+
+        <div class="container">
+          <h2>
+            Совпадает ли название цвета на левой карточке с цветом текста на
+            правой карточке?
+          </h2>
+          <div class="wrapper_color">
+            <div class="color_block">
+              <p>Значение</p>
+              <div class="color">1</div>
+            </div>
+            <div class="color_block">
+              <p>Цвет</p>
+              <div class="color">2</div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <button class="btn btn_left">< нет</button>
+          <button class="btn btn_right">Да ></button>
+        </footer>
+      </div>
+    </div>
+
+    <div class="wrapper_count">
+      <div class="wrapper_main">
+        <div class="wrapper_block">
+          <div class="header_count">
+            <h1>Ваши результаты</h1>
+          </div>
+          <div class="count_info">
+            <div class="count_info__left">
+              <p>Текущий результат</p>
+              <p>Верных ответов</p>
+              <p>Точность ответов</p>
+              <p>Создано нейронов</p>
+            </div>
+            <div class="count_info__right">
+              <p class="result">0</p>
+              <p>
+                <span class="info_left"></span> из
+                <span class="info_right"></span>
+              </p>
+              <p class="percent">0</p>
+              <p class="neuron">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
